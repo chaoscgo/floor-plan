@@ -6,9 +6,10 @@ import Bedroom1 from '../Bedroom1/Bedroom1.jsx';
 import Bedroom2 from '../Bedroom2/Bedroom2.jsx';
 import Bedroom3 from '../Bedroom3/Bedroom3.jsx';
 
+
 const FloorPlan = () => {
     return (
-        <div>
+        <div className="floorplan">
           <Kitchen />
           <HalfBath />
           <LivingRoom />
